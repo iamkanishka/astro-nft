@@ -1,0 +1,9 @@
+{
+  "name": "astro-nft-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "sourceRoot": "apps/astro-nft-e2e/src",
+  "implicitDependencies": ["astro-nft"],
+  "// targets": "to see all targets run: nx show project astro-nft-e2e --web",
+  "targets": {}
+}
