@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@astro-nft/astro-nft-lib": ["libs/astro-nft-lib/src/index.ts"],
+      "@astro-nft/astro-nft-lib-ui": ["libs/astro-nft-lib-ui/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
