@@ -15,8 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@astro-nft/explore": ["libs/ui/explore/src/index.ts"],
-      "@astro-nft/home": ["libs/ui/home/src/index.ts"]
+      "@astro-nft/dashboard": ["libs/ui/dashboard/src/index.ts"],
+      "@astro-nft/explore": ["libs/ui/explore/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
