@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@astro-nft/auth": ["libs/ui/auth/src/index.ts"],
       "@astro-nft/dashboard": ["libs/ui/dashboard/src/index.ts"],
       "@astro-nft/explore": ["libs/ui/explore/src/index.ts"],
       "@astro-nft/nft": ["libs/ui/nft/src/index.ts"]
