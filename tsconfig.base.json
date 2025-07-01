@@ -15,15 +15,15 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@astro-nft-api/nft-api": ["libs/api/nft-api/src/index.ts"],
-      "@astro-nft-api/auth-api": ["libs/api/auth-api/src/index.ts"],
-      "@astro-nft-api/explore-api": ["libs/api/explore-api/src/index.ts"],
-      "@astro-nft-api/auth": ["libs/ui/auth/src/index.ts"],
+      "@astro-nft-api/nft-api": ["libs/backend/nft-api/src/index.ts"],
+      "@astro-nft-api/auth-api": ["libs/backend/auth-api/src/index.ts"],
+      "@astro-nft-api/explore-api": ["libs/backend/explore-api/src/index.ts"],
+      "@astro-nft-api/auth": ["libs/frontend/auth/src/index.ts"],
       
-      "@astro-nft/dashboard": ["libs/ui/dashboard/src/index.ts"],
-      "@astro-nft/explore": ["libs/ui/explore/src/index.ts"],
-      "@astro-nft/layout": ["libs/ui/layout/src/index.ts"],
-      "@astro-nft/nft": ["libs/ui/nft/src/index.ts"]
+      "@astro-nft/dashboard": ["libs/frontend/dashboard/src/index.ts"],
+      "@astro-nft/explore": ["libs/frontend/explore/src/index.ts"],
+      "@astro-nft/layout": ["libs/frontend/layout/src/index.ts"],
+      "@astro-nft/nft": ["libs/frontend/nft/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
