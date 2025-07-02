@@ -1,11 +1,13 @@
-const { createGlobPatternsForDependencies } = require('@nx/angular/tailwind');
-const { join } = require('path');
 
-/** @type {import('tailwindcss').Config} */
+
 module.exports = {
   content: [
-    join(__dirname, 'src/**/!(*.stories|*.spec).{ts,html}'),
-    ...createGlobPatternsForDependencies(__dirname),
+    './apps/astro-nft/src/**/*.{html,ts}',
+    './libs/frontend/layout/src/**/*.{html,ts}',
+    './libs/frontend/dashboard/src/**/*.{html,ts}',
+    './libs/frontend/auth/src/**/*.{html,ts}',
+    './libs/frontend/explore/src/**/*.{html,ts}',
+    './libs/frontend/nft/src/**/*.{html,ts}',
   ],
   theme: {
     extend: {},
