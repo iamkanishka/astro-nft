@@ -15,11 +15,10 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@astro-nft-api/nft-api": ["libs/backend/nft-api/src/index.ts"],
+      "@astro-nft-api/auth": ["libs/frontend/auth/src/index.ts"],
       "@astro-nft-api/auth-api": ["libs/backend/auth-api/src/index.ts"],
       "@astro-nft-api/explore-api": ["libs/backend/explore-api/src/index.ts"],
-      "@astro-nft-api/auth": ["libs/frontend/auth/src/index.ts"],
-      
+      "@astro-nft-api/nft-api": ["libs/backend/nft-api/src/index.ts"],
       "@astro-nft/dashboard": ["libs/frontend/dashboard/src/index.ts"],
       "@astro-nft/explore": ["libs/frontend/explore/src/index.ts"],
       "@astro-nft/layout": ["libs/frontend/layout/src/index.ts"],
