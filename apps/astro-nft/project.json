@@ -18,7 +18,8 @@
         "assets": [
           {
             "glob": "**/*",
-            "input": "apps/astro-nft/public"
+            "input": "apps/astro-nft/public",
+            "output": "assets"
           }
         ],
         "styles": ["apps/astro-nft/src/styles.scss"],
