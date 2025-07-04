@@ -6,4 +6,18 @@ export const appRoutes: Route[] = [
     loadComponent: () =>
       import('@astro-nft/dashboard').then((m) => m.Dashboard),
   },
+
+  {
+    path: 'explore',
+    loadComponent: () =>
+      import('@astro-nft/explore').then((m) => m.Explore),
+  },
+
+
+   {
+    path: 'nft/create',
+    loadComponent: () =>
+      import('@astro-nft/nft').then((m) => m.CreateNft),
+  },
+
 ];
