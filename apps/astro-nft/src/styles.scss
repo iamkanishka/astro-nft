@@ -3,3 +3,18 @@
 @tailwind utilities;
 
 /* You can add global styles to this file, and also import other style files */
+
+body {
+  font-family: 'inter', serif;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge, and Firefox */
+body {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+
+}
